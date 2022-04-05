@@ -1,0 +1,18 @@
+header, #content, aside, footer, article{
+height:25vh;
+}
+
+header, footer{
+    background:lightgray;
+}
+
+#content {
+    background:lightblue;
+}
+
+aside {
+    background:lightgreen;
+}
+
+body article{
+}

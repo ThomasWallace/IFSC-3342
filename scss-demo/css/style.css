@@ -1,0 +1,40 @@
+body {
+  --typeface:"Niramit", sans-serif;
+}
+
+/* Mixin Example*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Niramit", sans-serif;
+}
+
+section {
+  font-family: var(--typeface);
+  max-width: 80vw;
+  display: flex;
+  margin: 10px auto;
+  background: #c0c0c0;
+  border-radius: 10px;
+}
+section article {
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  padding: 1em;
+  flex-grow: 1;
+  background: #000;
+  /* The Fallback */
+  background: rgba(0, 0, 0, 0.15);
+}
+section article.post {
+  border: 1px solid #333333;
+}/*# sourceMappingURL=style.css.map */

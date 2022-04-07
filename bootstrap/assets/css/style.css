@@ -1,4 +1,4 @@
-header, #content, aside, footer, article{
+header, footer,article div{
 height:25vh;
 }
 
@@ -12,7 +12,4 @@ header, footer{
 
 aside {
     background:lightgreen;
-}
-
-body article{
 }
